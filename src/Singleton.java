@@ -17,6 +17,9 @@ public class Singleton {
 
         return instance;
     }
+}
+
+class Test {
 
     public static void main(String[] args) {
         Singleton s1 = Singleton.getInstance();
@@ -25,4 +28,5 @@ public class Singleton {
         System.out.println(s1.i);
         System.out.println(s2.i);
     }
+
 }
